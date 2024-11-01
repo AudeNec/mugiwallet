@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Imprima&family=Pirata+One&family=UnifrakturCook&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+#root {
+	max-width: 1280px;
+	text-align: center;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+h2,
+h3,
+h4 {
+	font-family: "Work Sans", sans-serif;
+}
+
+p,
+a,
+label {
+	font-family: "Imprima", sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 1em 2em;
+}
+
+nav input {
+	margin: auto 0;
+}
+
+nav button span {
+	font-size: 2em;
+}
+
+nav button {
+	font-size: 0.5em;
+	font-weight: 800;
+	letter-spacing: -5;
+}
+
+button {
+	border: none;
+	background: none;
+	font-size: 0.7em;
+}
+
+button#add-card {
+	border-radius: 5px;
+	border: solid .5px #bbb;
+}
+
+.list-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	gap: 1em;
+}

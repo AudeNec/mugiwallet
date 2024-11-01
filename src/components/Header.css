@@ -1,0 +1,16 @@
+.header {
+	min-height: 172px;
+	padding: 0 2em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.header img {
+	width: 140%;
+}
