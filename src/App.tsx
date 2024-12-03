@@ -43,8 +43,8 @@ function App() {
 						card.Name.toLowerCase().includes(search.toLowerCase()),
 					).length === 0 ? (
 						<div>
-							<img src={Hats} width="200px" />
-							<p>Oops, nothing to see here.. Try another search</p>{" "}
+							<img src={Hats} width="200px" alt="hats" />
+							<p>Oops, nothing to see here.. Try another search</p>
 						</div>
 					) : (
 						<></>

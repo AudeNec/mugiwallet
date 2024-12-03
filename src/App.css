@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Imprima&family=Pirata+One&family=UnifrakturCook&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 #root {
-	max-width: 1280px;
+	max-width: 550px;
 	text-align: center;
 	background-color: #fff;
 	box-sizing: border-box;
