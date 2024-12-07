@@ -9,14 +9,18 @@ import Filter from "./components/Filter";
 import Hats from "./assets/hats.png";
 
 import Cards from "./data/data.json";
+import PopUp from "./components/PopUp";
 
 function App() {
 	const [search, setSearch] = useState<string>("");
 	const [filterFav, setFilterFav] = useState<boolean>(false);
 	const [filterFound, setFilterFound] = useState<boolean>(false);
 
+	const [popUp, setPopUp] = useState<boolean>(true);
+
 	return (
 		<>
+			{popUp ? <PopUp setPopUp={setPopUp} /> : <></>}
 			<Header />
 			<main>
 				<Filter

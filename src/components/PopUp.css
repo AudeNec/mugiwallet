@@ -1,0 +1,40 @@
+#pop-up {
+	position: absolute;
+	max-width: 375px;
+	top: 10vh;
+
+	padding: 5rem;
+	background-color: #82bfe0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 10px;
+
+	z-index: 2;
+}
+
+#pop-up h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+#pop-up p {
+	line-height: 1.2;
+}
+
+#pop-up button {
+	padding: 1rem;
+	margin: 1rem;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px 5px #3a5564;
+	cursor: pointer;
+}
+
+#pop-up button:hover {
+	opacity: 50%;
+}
+
+#explanations {
+	font-size: 0.8rem;
+	font-style: italic;
+	padding: 1rem 0;
+}
